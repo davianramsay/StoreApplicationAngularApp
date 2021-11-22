@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplicationAngularApp", "StoreApplicationAngularApp\StoreApplicationAngularApp.csproj", "{7467F71A-15BF-45E3-B000-F8AC58268AA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplicationAngularAppBusinessLogic", "StoreApplicationAngularAppBusinessLogic\StoreApplicationAngularAppBusinessLogic.csproj", "{61367183-8DB1-41BC-B4EA-2144A26655D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplicationAngularAppModel", "StoreApplicationAngularAppModel\StoreApplicationAngularAppModel.csproj", "{AB03B79F-8D22-4C50-B04B-F713242B90DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplicationAngularAppStorage", "StoreApplicationAngularAppStorage\StoreApplicationAngularAppStorage.csproj", "{6A8B3227-75F9-48BF-AD31-82DE8A1212FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApplicationAngularAppTesting", "StoreApplicationAngularAppTesting\StoreApplicationAngularAppTesting.csproj", "{FDE9C905-95DB-40D9-8B04-B9926F7EB818}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StoreApplicationAngularAppAngularFE", "StoreApplicationAngularAppAngularFE\", "{5AA650ED-41D0-498A-90A6-B9BA50BED710}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59902"
+		Debug.AspNetCompiler.PhysicalPath = "StoreApplicationAngularAppAngularFE\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59902\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59902"
+		Release.AspNetCompiler.PhysicalPath = "StoreApplicationAngularAppAngularFE\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59902\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59902"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7467F71A-15BF-45E3-B000-F8AC58268AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7467F71A-15BF-45E3-B000-F8AC58268AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7467F71A-15BF-45E3-B000-F8AC58268AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7467F71A-15BF-45E3-B000-F8AC58268AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61367183-8DB1-41BC-B4EA-2144A26655D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61367183-8DB1-41BC-B4EA-2144A26655D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61367183-8DB1-41BC-B4EA-2144A26655D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61367183-8DB1-41BC-B4EA-2144A26655D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB03B79F-8D22-4C50-B04B-F713242B90DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB03B79F-8D22-4C50-B04B-F713242B90DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB03B79F-8D22-4C50-B04B-F713242B90DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB03B79F-8D22-4C50-B04B-F713242B90DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A8B3227-75F9-48BF-AD31-82DE8A1212FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A8B3227-75F9-48BF-AD31-82DE8A1212FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A8B3227-75F9-48BF-AD31-82DE8A1212FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A8B3227-75F9-48BF-AD31-82DE8A1212FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE9C905-95DB-40D9-8B04-B9926F7EB818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE9C905-95DB-40D9-8B04-B9926F7EB818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE9C905-95DB-40D9-8B04-B9926F7EB818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE9C905-95DB-40D9-8B04-B9926F7EB818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA650ED-41D0-498A-90A6-B9BA50BED710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA650ED-41D0-498A-90A6-B9BA50BED710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA650ED-41D0-498A-90A6-B9BA50BED710}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA650ED-41D0-498A-90A6-B9BA50BED710}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F44EB08-D277-4228-AD2A-5271D3A0444B}
+	EndGlobalSection
+EndGlobal
